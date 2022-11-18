@@ -55,6 +55,6 @@ public class GridViewFragment extends Fragment {
 
         RecyclerView rvGallery = (RecyclerView) view.findViewById(R.id.rvGrid);
         rvGallery.setAdapter(listAdapter);
-        rvGallery.setLayoutManager(new GridLayoutManager(getContext()));
+        rvGallery.setLayoutManager(new GridLayoutManager(getContext(),3));
     }
 }
